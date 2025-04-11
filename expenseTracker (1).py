@@ -1,6 +1,4 @@
-#import pandas as pd
 from datetime import date
-#import numpy as np
 import time,os
 
 TodaysDate=date.today()
@@ -213,9 +211,6 @@ user_budget=userBudget()
 
 userChoicenum=userinput()
 
-
-
-#while userChoicenum>=1 and userChoicenum<=7:
 userChoice(userChoicenum)
 
 
